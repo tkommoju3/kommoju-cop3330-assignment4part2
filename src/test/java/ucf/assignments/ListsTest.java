@@ -16,7 +16,7 @@ class ListsTest {
             expected.add("brush  |  Incomplete |  2021-07-25 |");
             expected.add("wash face       |  Complete   |  2021-07-11 |");
             expected.add("drink water |  Complete   |  2021-07-19 |");
-            assertEquals(expected, Lists.readFromFile(""));
+            assertEquals(expected, Lists.readFromFile("C:\\Dev\\kommoju-cop3330-assignment4part2\\src\\main\\resources\\TestFile.txt"));
         }
     }
 /*

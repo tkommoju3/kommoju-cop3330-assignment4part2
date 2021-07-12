@@ -74,7 +74,7 @@ class TodoListTest {
         ArrayList<String> expected = new ArrayList<String>();
         actual.addItem(item1);
         actual.addItem(item2);
-        expected.add("wash face");
+        expected.add(" ");
         ArrayList<String> actualTitles = actual.isComplete();
         assertEquals(expected, actualTitles);
     }
@@ -92,7 +92,7 @@ class TodoListTest {
         ArrayList<String> expected = new ArrayList<String>();
         actual.addItem(item1);
         actual.addItem(item2);
-        expected.add("brush");
+        expected.add("wash face");
         ArrayList<String> actualTitles = actual.isIncomplete();
         assertEquals(expected, actualTitles);
     }
