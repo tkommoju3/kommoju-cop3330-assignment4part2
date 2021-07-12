@@ -1,6 +1,0 @@
-ucf/assignments/TodoItemTest.java
- ucf.assignments.TodoItemTest
-ucf/assignments/ListsTest.java
- ucf.assignments.ListsTest
-ucf/assignments/TodoListTest.java
- ucf.assignments.TodoListTest
