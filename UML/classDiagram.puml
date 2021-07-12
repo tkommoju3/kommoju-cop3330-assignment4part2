@@ -1,0 +1,63 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Task{
+    main()
+    start()
+}
+
+class Main{
+    +openItemClick()
+    +addItemClick()
+    +clearItemClick()
+    +removeItemClick()
+    +setItemStatus()
+    +setListItems()
+    +resetInputs()
+    +editItemClick()
+    +saveItemClick()
+
+
+}
+
+class Lists{
+    ArrayList<TodoList> allLists
+    +openFile()
+    +saveFile()
+    +readFromFile()
+    +writeToFile()
+}
+
+class TodoList{
+    String name
+    ArrayList<TodoItem> allItems
+
+    +addItem()
+    +removeItem()
+    +clearList()
+    +getDates()
+    +isComplete()
+    +isIncomplete()
+}
+
+class TodoItem{
+    String name
+    Boolean isComplete
+
+    +setName()
+    +setDate()
+    +setCompleteFlag()
+    +get()
+    +getComplete()
+    +setDescription()
+    +getDescription()
+    +getDate()
+    +fileToItem()
+}
+
+javafx.Application <|-- Task
+Task o-- Lists
+Task o- Main
+TodoList *-- TodoItem
+Lists o- TodoList
+@enduml
