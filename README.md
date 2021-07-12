@@ -16,3 +16,5 @@ The Clear button will clear all items from the list.
 The Save button will save list to a .txt
 
 Open button will open an existing list
+
+The complete and incomplete button allows the user to mark an item in the list
