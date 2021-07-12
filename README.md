@@ -1,7 +1,5 @@
 Dedicated to Rey :)
 
-This is an application for storing and editing your todo lists. 
-
 
 The Add button adds a new item to the list, the user should fill in the description and date and ensure status of item before adding.
 
@@ -15,6 +13,6 @@ The Clear button will clear all items from the list.
 
 The Save button will save list to a .txt
 
-Open button will open an existing list
+The Open button will open an existing list
 
-The complete and incomplete button allows the user to mark an item in the list
+The Complete and Incomplete buttons allow the user to mark an item in the list
